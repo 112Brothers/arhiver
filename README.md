@@ -1,1 +1,3 @@
 # arhiver
+
+Huffman archiver
