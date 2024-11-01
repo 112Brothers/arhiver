@@ -1,0 +1,19 @@
+add_executable(
+        archiver
+        archiver.cpp
+        bitio.cpp
+        argparse.cpp
+        compress.cpp 
+        decompress.cpp
+        trie.cpp
+)
+
+add_executable(
+        unittest_archiver
+        tests/test_main.cpp
+        bitio.cpp
+        argparse.cpp
+        compress.cpp 
+        decompress.cpp
+        trie.cpp
+)
